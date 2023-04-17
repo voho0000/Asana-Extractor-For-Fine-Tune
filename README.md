@@ -21,10 +21,10 @@ Asana Test Case Extractor is a Python script that extracts test cases from Asana
 `pip install -r requirements.txt`
 
 4. Create a `.env` file in the root directory of the project and add your OpenAI API key:
-'''
+```
 ASANA_API_KEY=your_asana_api_key
 OPENAI_API_KEY=your_openai_api_key
-'''
+```
 
 ## Usage
 1. Open `get-fine-tune-data.py` and update the `task_ids` list with your actual list of Asana task IDs. Make sure to replace the example task IDs with the ones from your Asana tasks
