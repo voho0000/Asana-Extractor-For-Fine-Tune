@@ -1,0 +1,4 @@
+asana
+openai
+python-dotenv
+requests
